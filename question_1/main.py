@@ -39,7 +39,7 @@ def most_freq_word_length(input_str: str) -> int:
         return length
     except Exception as e:
         raise Exception(e)
-
+    
 
 if __name__ == "__main__":
     print(most_freq_word_length("all the number from from from 1 to 100 hi hi hi hi write write write"))
