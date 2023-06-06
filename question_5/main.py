@@ -22,6 +22,7 @@ import pandas as pd
 import json
 
 
+
 class TvMaze:
     def __init__(self) -> None:
         self.api_link = "http://api.tvmaze.com/singlesearch/shows?q=westworld&embed=episodes"
